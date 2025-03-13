@@ -2,10 +2,7 @@ const mongoose = require("mongoose");
 
 const Feedback_2_1_DS = new mongoose.Schema(
   {
-    section: {
-      type: String,
-      required: true, // Ensures section is mandatory
-    },
+ 
     subjectRatings: {
       type: Map,
       of: String,
