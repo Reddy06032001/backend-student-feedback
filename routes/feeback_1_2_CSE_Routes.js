@@ -6,10 +6,17 @@ const router = express.Router();
 // POST feedback
 router.post("/", async (req, res) => {
   try {
-    const { section, subjectRatings, overallRating, suggestions } = req.body;
+    const {
+      section,
+      subjectRatings,
+      labSubjectRatings,
+      overallRating,
+      suggestions,
+    } = req.body;
     const feedback = new Feedback({
       section,
       subjectRatings,
+      labSubjectRatings,
       overallRating,
       suggestions,
     });

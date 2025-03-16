@@ -8,7 +8,7 @@ const Feedback_2_1_DS = new mongoose.Schema(
       of: String,
       required: true,
     },
-    labsubject: {
+    labSubjectRatings: {
       type: Map,
       of: String,
       required: true,

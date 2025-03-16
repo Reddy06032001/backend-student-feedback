@@ -11,6 +11,11 @@ const Feedback_2_2_CSE = new mongoose.Schema(
       of: String,
       required: true,
     },
+    labSubjectRatings: {
+      type: Map,
+      of: String,
+      required: true,
+    },
     overallRating: {
       type: Number,
       required: true,

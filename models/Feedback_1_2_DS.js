@@ -11,6 +11,11 @@ const Feedback_1_2_DS = new mongoose.Schema(
       of: String,
       required: true,
     },
+    labSubjectRatings: {
+      type: Map,
+      of: String,
+      required: true,
+    },
     overallRating: {
       type: Number,
       required: true,
