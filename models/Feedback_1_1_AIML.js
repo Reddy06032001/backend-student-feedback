@@ -4,20 +4,20 @@ const Feedback_1_1_AIML = new mongoose.Schema(
   {
     section: {
       type: String,
-      required: true,
+      required: true, // Ensures section is mandatory
     },
     subjectRatings: {
       type: Map,
-      of: Number, // ✅ Change 'String' to 'Number' for ratings
+      of: String,
       required: true,
     },
     labSubjectRatings: {
       type: Map,
-      of: [String], // ✅ Change 'String' to '[String]' (array of strings)
+      of: [String],
       required: true,
     },
     overallRating: {
-      type: Number, // ✅ Should be a number
+      type: Number,
       required: true,
     },
     suggestions: {
