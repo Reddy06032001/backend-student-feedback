@@ -10,7 +10,7 @@ const Feedback_2_1_ECE = new mongoose.Schema(
     },
     labSubjectRatings: {
       type: Map,
-      of: String,
+      of: [String],
       required: true,
     },
     overallRating: {

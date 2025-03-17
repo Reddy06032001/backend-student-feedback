@@ -2,7 +2,6 @@ const mongoose = require("mongoose");
 
 const Feedback_2_1_DS = new mongoose.Schema(
   {
- 
     subjectRatings: {
       type: Map,
       of: String,
@@ -10,7 +9,7 @@ const Feedback_2_1_DS = new mongoose.Schema(
     },
     labSubjectRatings: {
       type: Map,
-      of: String,
+      of: [String],
       required: true,
     },
     overallRating: {

@@ -4,6 +4,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const feedbackRoutes = require("./routes/feedbackRoutes");
 const facultyfeedbackRoutes = require("./routes/facultyfeedbackRoutes");
+
 const feedback_1_1_aiml = require("./routes/feeback_1_1_AIML_Routes");
 const feedback_1_1_cse = require("./routes/feeback_1_1_CSE_Routes");
 const feedback_1_1_ds = require("./routes/feeback_1_1_DS_Routes");
@@ -47,7 +48,6 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors());
-app.use(cors({ origin: "*" })); // Allow all origins (for testing)
 
 // Routes
 app.use("/api/feedback", feedbackRoutes);
