@@ -1,0 +1,102 @@
+[
+  {
+    "currentmonth": "2025-06",
+    "program": "B.Tech",
+    "fname": "Ravi Kumar",
+    "yearSemester": "II Year B.Tech I Semester",
+    "branch": "CSE (AIML)",
+    "studentType": "NON-CRT Student",
+    "hallTicket": "9865",
+    "gender": "Male"
+  },
+  {
+    "currentmonth": "2025-06",
+    "program": "B.Tech",
+    "fname": "Anjali Sharma",
+    "yearSemester": "I Year B.Tech II Semester",
+    "branch": "ECE",
+    "studentType": "Regular",
+    "hallTicket": "9866",
+    "gender": "Female"
+  },
+  {
+    "currentmonth": "2025-06",
+    "program": "B.Tech",
+    "fname": "Karthik Reddy",
+    "yearSemester": "III Year B.Tech I Semester",
+    "branch": "CSE (AI)",
+    "studentType": "CRT Student",
+    "hallTicket": "9867",
+    "gender": "Male"
+  },
+  {
+    "currentmonth": "2025-06",
+    "program": "B.Tech",
+    "fname": "Priya Verma",
+    "yearSemester": "IV Year B.Tech II Semester",
+    "branch": "MECH",
+    "studentType": "Regular",
+    "hallTicket": "9868",
+    "gender": "Female"
+  },
+  {
+    "currentmonth": "2025-06",
+    "program": "B.Tech",
+    "fname": "Rohan Das",
+    "yearSemester": "II Year B.Tech II Semester",
+    "branch": "CIVIL",
+    "studentType": "NON-CRT Student",
+    "hallTicket": "9869",
+    "gender": "Male"
+  },
+  {
+    "currentmonth": "2025-06",
+    "program": "B.Tech",
+    "fname": "Sneha Iyer",
+    "yearSemester": "I Year B.Tech I Semester",
+    "branch": "IT",
+    "studentType": "Regular",
+    "hallTicket": "9870",
+    "gender": "Female"
+  },
+  {
+    "currentmonth": "2025-06",
+    "program": "B.Tech",
+    "fname": "Amit Patel",
+    "yearSemester": "III Year B.Tech II Semester",
+    "branch": "CSE (Cyber Security)",
+    "studentType": "CRT Student",
+    "hallTicket": "9871",
+    "gender": "Male"
+  },
+  {
+    "currentmonth": "2025-06",
+    "program": "B.Tech",
+    "fname": "Neha Gupta",
+    "yearSemester": "II Year B.Tech I Semester",
+    "branch": "EEE",
+    "studentType": "Regular",
+    "hallTicket": "9872",
+    "gender": "Female"
+  },
+  {
+    "currentmonth": "2025-06",
+    "program": "B.Tech",
+    "fname": "Arjun Mehta",
+    "yearSemester": "IV Year B.Tech I Semester",
+    "branch": "CSE (DS)",
+    "studentType": "NON-CRT Student",
+    "hallTicket": "9873",
+    "gender": "Male"
+  },
+  {
+    "currentmonth": "2025-06",
+    "program": "B.Tech",
+    "fname": "Pooja Desai",
+    "yearSemester": "I Year B.Tech II Semester",
+    "branch": "CSE",
+    "studentType": "Regular",
+    "hallTicket": "9874",
+    "gender": "Female"
+  }
+]
